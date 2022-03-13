@@ -1,0 +1,635 @@
+.center-block-main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-top {
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 1.4375em;
+    float: left;
+}
+
+.contact-basket {
+    font-size: .75em;
+    font-weight: 600;
+    float: right;
+}
+
+.contact-basket p {
+    float: left;
+}
+
+.contact-basket p img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.header-phone {
+    margin: 8px 25px 0 0;
+}
+
+.header-basket {
+    padding: 7px 25px;
+    border: 1px solid #eee;
+}
+
+.header-basket a {
+    color: #7e7f84;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 37px;
+}
+
+.header-basket a:hover {
+    color: #f45a40;
+}
+
+.header-bottom {
+    font-size: .875em;
+    padding: 15px 0;
+}
+
+.header-bottom ul {
+    float: left;
+}
+
+.header-bottom li {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 37px;
+}
+
+.header-bottom a {
+    color: #7e7f84;
+    text-decoration: none;
+}
+
+.header-bottom a:hover {
+    color: #f45a40;
+}
+
+.search-block {
+    float: left;
+}
+
+.search-btn {
+    float: left;
+    margin: 3px 7px 0 0 ;
+}
+
+.search {
+    float: left;
+    border: none;
+    color: #7e7f84;
+}
+
+.search::-webkit-search-cancel-button {
+    display: none;
+}
+
+.my-slider {
+    color: #f45a40;
+}
+
+.my-slider li {
+    position: relative;
+}
+
+.my-slider h2 {
+    position: absolute;
+    top: 225px;
+    left: 36px;
+    line-height: 1.1;
+    font-size: 3.6875em;
+    font-weight: 700;
+}
+
+.my-slider p {
+    position: absolute;
+    top: 365px;
+    left: 36px;
+    line-height: 1.5;
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.unslider-nav {
+    position: relative;
+    top: -40px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.block3-main {
+    margin-bottom: 65px;
+}
+
+.block3-main > article {
+    width: 31.6%;
+    float: left;
+    margin-left: 2.6%;
+}
+
+.block3-main > article:first-child {
+    margin-left: 0;
+}
+
+.block3-main img {
+    display: block;
+    margin: 0 auto 25px auto;
+}
+
+.block3-main h2 {
+    margin-bottom: 25px;
+}
+
+.block3-main a {
+    font-family: "Roboto Condensed";
+    font-size: 1.3475em;
+}
+
+.block3-main p {
+    font-size: .875em;
+}
+
+.block4-main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 64px;
+}
+
+.block4-main > h2 {
+    font-family: "Roboto Condensed";
+    font-size: 1.4375em;
+    color: #67686d;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.block-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.block-products > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 23%;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 21px 21px 0 21px;
+    border: 1px solid #eee;
+    flex: 1 1 auto;
+}
+
+.block-products > article h2 {
+    color: #67686d;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.block-products > article h3 {
+    color: #67686d;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.product-info > p {
+    font-size: 0.625em;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+
+.price-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding: 12px 0 18px 0;
+}
+
+.price-add > span:first-child {
+    font-size: 0.875em;
+    color: #f45a40;
+    font-weight: 500;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.about-company {
+    width: 60%;
+}
+
+.about-company > h2 {
+    font-size: 1.4375em;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+.about-company > p {
+    font-size: .875em;
+    font-style: italic;
+    margin-bottom: 29px;
+}
+
+.map {
+    width: 35%;
+}
+
+.mapin {
+    position: relative;
+    height: 0;
+    padding-bottom: 75%;
+}
+
+.mapin > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe {
+    background-color: #f45a40;
+    padding: 32px 0;
+}
+
+.main-subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-subscribe > h2 {
+    font-family: "Roboto Condensed";
+    font-size: 1.4375em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.email-input {
+    width: 246px;
+    font-size: 0.875em;
+    color: #000;
+    text-transform: uppercase;
+    padding: 14px 21px;
+    border: none;
+}
+
+.email-input:focus {
+    padding: 14px 21px;
+}
+
+.email-input::placeholder {
+    color: #000;
+    font-size: 0.875em;
+}
+
+.subscribe-btn {
+    background-color: #ff674f;
+    color: #fff;
+    font-size: .875em;
+    padding: 14px 23px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.ftr {
+    background-color: #2a2d34;
+    font-size: .875em;
+    padding: 46px 0 18px 0;
+}
+
+.main-footer-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer-block > article {
+    flex: 0 1 23%;
+}
+
+.ftr h2 {
+    font-family: "Roboto Condensed";
+    color: #fff;
+    font-size: 1.4375em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.ftr-content {
+    font-weight: 500;
+}
+
+.ftr h3 > a {
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.ftr h3 > a:hover {
+    text-decoration: underline;
+}
+
+.ftr p {
+    font-size: 0.875em;
+    margin-bottom: 28px;
+    line-height: 1.5;
+}
+
+.support {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.support-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.support-links > a {
+    color: #7e7f84;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.support-links > a:hover {
+    text-decoration: underline;
+}
+
+.ftr-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftr-email-input {
+    padding: 12px 19px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    border: none;
+}
+
+.ftr-email-input:focus {
+    padding: 12px 19px;
+}
+
+.ftr-email-input::placeholder {
+    font-size: 0.75em;
+}
+
+textarea.user-text {
+    height: 60px;
+    padding: 12px 19px;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    color: #7e7f84;
+    margin-bottom: 21px;
+    border: none;
+}
+
+.ftr-send-btn {
+    font-size: .75em;
+    padding: 12px 19px;
+    background-color: #f45a40;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 925px) {
+    .main-subscribe {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-subscribe > h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .my-slider h2 {
+        top: 150px;
+        font-size: 3em;
+    }
+    
+    .my-slider p {
+        top: 270px;
+    }
+
+    .block4-main {
+        margin-bottom: 44px;
+    }
+
+    .block-products,
+    .main-footer-block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .block-products > article,
+    .main-footer-block > article {
+        flex: 0 1 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 773px) {
+    .header-bottom ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .header-bottom li {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .search-block {
+        float: none;
+        display: table;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        margin: 20px auto 0 auto;
+        padding: 5px 0;
+    }
+
+    .my-slider h2 {
+        top: 100px;
+        font-size: 2.5em;
+    }
+    
+    .my-slider p {
+        top: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .block3-main {
+        margin-bottom: 35px;
+    }
+
+    .block3-main > article {
+        width: 95%;
+        float: none;
+        margin: 0 2.5% 30px 2.5%;
+    }
+
+    .block3-main > article:first-child {
+        margin: 0 2.5% 30px 2.5%;
+    }
+
+    .about {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .about-company {
+        width: 95%;
+        margin: 0 2.5px 30px 2.5%;
+    }
+
+    .map {
+        width: 95%;
+        margin: 0 2.5% 30px 2.5%;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    .header-bottom ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .header-bottom li {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .my-slider h2 {
+        top: 50px;
+        font-size: 2em;
+    }
+    
+    .my-slider p {
+        width: 200px;
+        top: 130px;
+    }
+
+    .block4-main {
+        margin-bottom: 14px;
+    }
+
+    .block-products,
+    .main-footer-block {
+        flex-direction: column;
+    }
+    
+    .block-products > article,
+    .main-footer-block > article {
+        flex: 0 1 95%;
+        margin: 0 2.5% 30px 2.5%;
+    }
+
+    .support {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .support-links:first-child {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 493px) {
+    .main-subscribe > h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header-top {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    
+    .contact-basket {
+        display: table;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .my-slider h2 {
+        top: 20px;
+        font-size: 1.5em;
+    }
+    
+    .my-slider p {
+        top: 80px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .email-input {
+        width: 98%;
+        margin: 0 1%;
+        box-sizing: border-box;
+    }
+
+    .subscribe-btn {
+        display: table;
+        margin: 20px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 353px) {
+    .contact-basket p {
+        display: table;
+        margin: 0 auto;
+        float: none;
+    }
+}
