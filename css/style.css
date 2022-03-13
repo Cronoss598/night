@@ -361,7 +361,7 @@
     text-decoration: underline;
 }
 
-.ftr p {
+.ftr-content p {
     font-size: 0.875em;
     margin-bottom: 28px;
     line-height: 1.5;
